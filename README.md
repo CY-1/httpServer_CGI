@@ -5,9 +5,11 @@ Compile for Linux
 ```
 - 测试CGI时需要本机安装PERL，同时安装perl-cgi
   - sudo apt install perl
-  - sudo apt install libcgi-session-perll
+  - sudo apt install libcgi-session-perl
     - 如果找不到就 sudo apt oupdate
   - 确保check.cgi和color.cgi运行权限
+    - chmod 777 color.cgi 
+    - chmod 777 check.cgi
   - 编译 gcc server.c -o Server -lpthread
   - ./Server
   - 进入127.0.0.1:4000
