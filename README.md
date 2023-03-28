@@ -6,7 +6,7 @@ Compile for Linux
 - 测试CGI时需要本机安装PERL，同时安装perl-cgi
   - sudo apt install perl
   - sudo apt install libcgi-session-perl
-    - 如果找不到就 sudo apt oupdate
+    - 如果找不到就 sudo apt update
   - 确保check.cgi和color.cgi运行权限
     - chmod 777 color.cgi 
     - chmod 777 check.cgi
